@@ -1140,6 +1140,19 @@ svg.icon__arrow-up {
   .virtual-gym-section .virtual-inner .virtual-dec p {
     font-size: 16px;
   }
+  .method-section .methods-title h2 {
+    font-size: 30px;
+  }
+  .method-section .method-dec p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .virtual-gym-section .virtual-inner .virtual-dec .join-btn a {
+    font-size: 22px;
+    padding: 16px 45px;
+  }
   .subscribe-dec h2 {
     font-size: 18px;
     margin-bottom: 20px;
