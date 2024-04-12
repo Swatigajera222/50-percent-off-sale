@@ -59,19 +59,20 @@ ul {
   user-select: none;
 }
 .sign-up {
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 25px;
   max-width: 175px;
   padding: 10px 0px;
+  font-weight: 600;
   display: inline-block;
-  background-color: #fe018a;
-  color: #fff;
+  background-color: #fff;
+  color: #fe018a;
   width: 100%;
   text-transform: uppercase;
 }
 .sign-up:hover {
   color: #fff;
-  background-color: #e4017c;
+  background-color: #2bc43d;
 }
 .web-view {
   display: block;
@@ -82,7 +83,8 @@ ul {
 /* Header-section */
 .header-section {
   padding: 20px 0px;
-  background-color: rgba(0, 0, 0, 0.54);
+  /* background-color: rgba(0, 0, 0, 0.54); */
+  background-color: #fe048a;
   z-index: 9;
   width: 100%;
   /* position: absolute; */
@@ -185,12 +187,12 @@ ul {
 .method-section .method-dec {
 }
 .method-section .method-dec p {
-  font-size: 32px;
+  font-size: 24px;
   color: #fe018a;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 38px;
   text-transform: capitalize;
 }
 .method-section .method-dec {
@@ -203,7 +205,7 @@ ul {
   height: 84vh;
   display: flex;
   align-items: center;
-  background-color: #ff0099;
+  background-color: #fe048a;
 }
 .virtual-gym-section .virtual-inner .virtual-dec {
   width: 40%;
@@ -218,7 +220,7 @@ ul {
   margin: auto;
 }
 .virtual-gym-section .virtual-inner .virtual-dec h1 {
-  color: #fe018a;
+  color: #fe048a;
   font-size: 68px;
   text-align: center;
   font-weight: bold;
@@ -259,7 +261,7 @@ ul {
   text-transform: uppercase;
   padding: 20px 45px;
   font-weight: bold;
-  background-color: #fe018a;
+  background-color: #fe048a;
   border-radius: 30px;
 }
 .virtual-gym-section .virtual-inner .virtual-dec .join-btn a:hover {
@@ -320,7 +322,7 @@ ul {
 .sec-banner-wrap a {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: #14b327;
+  background-color: #fe048a;
   font-size: 44px;
   border-radius: 15px;
   padding: 20px 50px;
