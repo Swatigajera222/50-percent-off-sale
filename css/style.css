@@ -247,7 +247,8 @@ ul {
 .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list ul li {
   font-size: 18px;
   line-height: 36px;
-  color: #8dc963;
+  color: #14b327;
+  font-weight: 600;
 }
 .virtual-gym-section .virtual-inner .virtual-dec .join-btn {
   margin-top: 20px;
