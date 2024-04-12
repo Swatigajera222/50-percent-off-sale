@@ -184,14 +184,13 @@ ul {
 .method-section .method-inner .video-wrap video {
   width: 100%;
 }
-.method-section .method-dec {
-}
+
 .method-section .method-dec p {
-  font-size: 24px;
+  font-size: 26px;
   color: #fe018a;
   margin-bottom: 20px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 38px;
   text-transform: capitalize;
 }
