@@ -109,27 +109,115 @@ ul {
 
 /* banner-section */
 .banner-section {
+  position: relative;
+}
+.banner-section .banner-inner-img img {
   width: 100%;
 }
-.banner-section .banner-inner {
+.banner-section .bg-web {
+  display: block;
+  position: relative;
+}
+.banner-section .bg-web a {
+  position: absolute;
+  font-family: "Inter-Bold";
+  right: 50px;
+  bottom: 70px;
+  color: #ffffff;
+  border: none;
+  font-size: 48px;
+  text-transform: uppercase;
+  padding: 18px 30px;
+  font-weight: bold;
+  background-image: url(..//img/btn-bg.svg);
+  /* background-color: #ff1783; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.banner-section .bg-web a:hover {
+  color: #3d393b;
+}
+.banner-section .bg-mobile {
+  display: none;
+  position: relative;
+}
+.banner-section .bg-mobile a {
+  position: absolute;
+  background-image: url(..//img/btn-bg.svg);
+  /* background-color: #ff1783; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  right: 20px;
+  bottom: 60px;
+  font-size: 18px;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+/* method-section */
+.method-section {
+  padding: 60px 0px;
+}
+
+.method-section .methods-title {
+  text-align: center;
+}
+.method-section .methods-title h2 {
+  font-size: 52px;
+  color: #fe018a;
+  margin-bottom: 20px;
+  font-family: Inter-Bold;
+  text-transform: uppercase;
+}
+.method-section .method-inner .video-wrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.method-section .method-inner .video-wrap video {
+  width: 100%;
+}
+.method-section .method-dec {
+}
+.method-section .method-dec p {
+  font-size: 32px;
+  color: #fe018a;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.method-section .method-dec {
+}
+/* virtual-gym-section */
+.virtual-gym-section {
+  width: 100%;
+}
+.virtual-gym-section .virtual-inner {
   height: 84vh;
   display: flex;
   align-items: center;
   background-color: #ff0099;
 }
-.banner-section .banner-inner .banner-dec {
+.virtual-gym-section .virtual-inner .virtual-dec {
   width: 40%;
 
   align-items: center;
 }
-.banner-section .banner-inner .banner-dec .banner-dec-inner {
+.virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-inner {
   background-color: #f7f8f4;
   border-radius: 20px;
   padding: 30px 20px;
   width: 80%;
   margin: auto;
 }
-.banner-section .banner-inner .banner-dec h1 {
+.virtual-gym-section .virtual-inner .virtual-dec h1 {
   color: #fe018a;
   font-size: 68px;
   text-align: center;
@@ -139,32 +227,32 @@ ul {
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
-.banner-section .banner-inner .banner-dec p {
+.virtual-gym-section .virtual-inner .virtual-dec p {
   font-size: 18px;
   color: #000;
   text-align: center;
   margin-top: -6px;
 }
-.banner-section .banner-inner .banner-dec .banner-dec-list {
+.virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
-.banner-section .banner-inner .banner-dec .banner-dec-list ul {
+.virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list ul {
   padding: 0;
   margin: 0;
 }
-.banner-section .banner-inner .banner-dec .banner-dec-list ul li {
+.virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list ul li {
   font-size: 18px;
   line-height: 36px;
   color: #8dc963;
 }
-.banner-section .banner-inner .banner-dec .join-btn {
+.virtual-gym-section .virtual-inner .virtual-dec .join-btn {
   margin-top: 20px;
   text-align: center;
 }
-.banner-section .banner-inner .banner-dec .join-btn a {
+.virtual-gym-section .virtual-inner .virtual-dec .join-btn a {
   color: #fff;
   border: none;
   font-size: 28px;
@@ -174,10 +262,10 @@ ul {
   background-color: #fe018a;
   border-radius: 30px;
 }
-.banner-section .banner-inner .banner-dec .join-btn a:hover {
+.virtual-gym-section .virtual-inner .virtual-dec .join-btn a:hover {
   background-color: #14b327;
 }
-.banner-section .banner-inner .banner-img {
+.virtual-gym-section .virtual-inner .virtual-img {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -185,13 +273,8 @@ ul {
   justify-content: center;
   overflow: hidden;
 }
-.banner-section .banner-inner .banner-img img {
+.virtual-gym-section .virtual-inner .virtual-img img {
   width: 100%;
-}
-
-.slick-track,
-.slick-list {
-  height: 100vh;
 }
 
 .slick-dotted.slick-slider {
@@ -200,7 +283,6 @@ ul {
 
 .slides {
   width: 100%;
-  height: 100vh;
 }
 .slides .slide {
   color: #419be0;
@@ -220,6 +302,35 @@ ul {
 }
 .slick-dots li {
   display: block;
+}
+/* sec-banner-wrap */
+.sec-banner-wrap {
+  position: relative;
+  width: 100%;
+}
+.sec-banner-wrap .web-sec-img {
+  display: block;
+}
+.sec-banner-wrap .mobile-sec-img {
+  display: none;
+}
+.sec-banner-wrap img {
+  width: 100%;
+}
+.sec-banner-wrap a {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: #14b327;
+  font-size: 44px;
+  border-radius: 15px;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 9%;
+  right: 35%;
+}
+.sec-banner-wrap a:hover {
+  background-color: #14b327;
 }
 /* END-sec-banner-wrap */
 /* bootcamp-section */
@@ -685,15 +796,15 @@ svg.icon__arrow-up {
   .header-section {
     position: relative;
   }
-  .banner-section .banner-inner {
+  .virtual-gym-section .virtual-inner {
     display: block;
     height: auto;
   }
-  .banner-section .banner-inner .banner-dec {
+  .virtual-gym-section .virtual-inner .virtual-dec {
     width: 100%;
     padding: 40px 0px 20px;
   }
-  .banner-section .banner-inner .banner-img {
+  .virtual-gym-section .virtual-inner .virtual-img {
     width: 100%;
     padding: 20px 0px 40px;
   }
@@ -1020,13 +1131,13 @@ svg.icon__arrow-up {
   }
 }
 @media only screen and (max-width: 525px) {
-  .banner-section .banner-inner .banner-dec .banner-dec-inner {
+  .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-inner {
     width: 90%;
   }
-  .banner-section .banner-inner .banner-dec h1{
+  .virtual-gym-section .virtual-inner .virtual-dec h1 {
     font-size: 46px;
   }
-  .banner-section .banner-inner .banner-dec p{
+  .virtual-gym-section .virtual-inner .virtual-dec p {
     font-size: 16px;
   }
   .subscribe-dec h2 {
@@ -1039,6 +1150,12 @@ svg.icon__arrow-up {
   }
   .subscribe-dec h2 span .off-text {
     font-size: 38px;
+  }
+  .sec-banner-wrap .web-sec-img {
+    display: none;
+  }
+  .sec-banner-wrap .mobile-sec-img {
+    display: block;
   }
   .sec-banner-wrap a {
     font-size: 30px;
