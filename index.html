@@ -94,12 +94,13 @@
                   data-wow-duration="0.5s"
                   data-wow-delay="0.2s"
                 >
-                  <video
-                    src="img/hollywoodtrainer-video.mp4"
-                    autoplay
-                    muted
-                    loop
-                  ></video>
+                  <video id="myVideo" muted controls>
+                    <source
+                      src="img/hollywoodtrainer-video.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             </div>
@@ -971,5 +972,18 @@
       });
     </script>
     <!-- Back top top -->
+    <script>
+      var video = document.getElementById("myVideo");
+
+      // Play the video when it's loaded
+      video.addEventListener("canplay", function () {
+        video.play();
+      });
+
+      // Show play button if autoplay is not supported
+      video.addEventListener("play", function () {
+        this.controls = true;
+      });
+    </script>
   </body>
 </html>
