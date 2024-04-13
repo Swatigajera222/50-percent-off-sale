@@ -147,14 +147,13 @@ ul {
 .banner-section .bg-mobile a {
   position: absolute;
   background-image: url(..//img/btn-bg.svg);
-  /* background-color: #ff1783; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   color: #ffffff;
   border: none;
   text-transform: uppercase;
-  right: 20px;
+  right: 40px;
   bottom: 60px;
   font-size: 18px;
   padding: 12px 20px;
@@ -212,7 +211,7 @@ ul {
   align-items: center;
 }
 .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-inner {
-  background-color: #f7f8f4;
+  background-color: #fff;
   border-radius: 20px;
   padding: 30px 20px;
   width: 80%;
@@ -345,7 +344,7 @@ ul {
   margin-bottom: 10px;
 }
 .bootcamp-section .head-title h1 {
-  font-size: 54px;
+  font-size: 50px;
   color: #fe018a;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -521,30 +520,6 @@ ul {
 }
 .sortable-wrap .price-btn a:hover {
   background-color: #14b327;
-}
-/* video-area */
-.video-area {
-  padding: 70px 0px;
-  position: relative;
-  z-index: 1;
-}
-.video-area video {
-  width: 100%;
-  border-radius: 20px;
-}
-.video-area::after {
-  content: "";
-  position: absolute;
-  background-image: url(..//img/video-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  opacity: 0.6;
 }
 
 /* END-video-area */
@@ -838,7 +813,6 @@ svg.icon__arrow-up {
     font-size: 38px;
     padding: 16px 40px;
     bottom: 8%;
-    right: 3%;
   }
 }
 @media only screen and (max-width: 1150px) {
@@ -958,7 +932,7 @@ svg.icon__arrow-up {
     display: none;
   }
   .banner-section .bg-mobile a {
-    bottom: 140px;
+    bottom: 40px;
   }
   .subscribe-dec h2 span {
     font-size: 70px;
@@ -972,6 +946,7 @@ svg.icon__arrow-up {
   .sec-banner-wrap a {
     font-size: 18px;
     padding: 10px 22px;
+    right: 38%;
   }
   .banner-section .bg-web {
     display: none;
@@ -1075,6 +1050,10 @@ svg.icon__arrow-up {
   .story-section .stroy-wrap:hover {
     box-shadow: none;
   }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
 }
 @media only screen and (max-width: 575px) {
   .back-to-top {
@@ -1096,8 +1075,11 @@ svg.icon__arrow-up {
     font-size: 16px;
     padding: 10px 11px;
     line-height: 16px;
-    right: 10px;
-    bottom: 90px;
+    right: 40px;
+    bottom: 30px;
+  }
+  .testimonials-section .one-time .slick-list {
+    height: 520px !important;
   }
   .annual-membership .annual-membership-inner h1 {
     font-size: 24px;
@@ -1173,12 +1155,10 @@ svg.icon__arrow-up {
     display: block;
   }
   .sec-banner-wrap a {
-    font-size: 30px;
-    padding: 12px 28px;
+    font-size: 24px;
     border-radius: 6px;
-    left: unset;
-    right: 22%;
-    bottom: 8%;
+    right: 28%;
+    bottom: 5%;
     background: #2bc43d;
   }
   .sign-up {
@@ -1253,6 +1233,9 @@ svg.icon__arrow-up {
   .bootcamp-section {
     padding-bottom: 30px;
   }
+  .method-section {
+    padding: 40px 0px;
+  }
   .testimonials-section .testimonials-slider .owl-nav button {
     top: 35%;
     height: 30px;
@@ -1319,6 +1302,8 @@ svg.icon__arrow-up {
   .banner-section .bg-mobile a {
     font-size: 15px;
     padding: 8px 8px;
+    bottom: 15px;
+    right: 20px;
   }
   .subscribe-dec h2 span {
     font-size: 44px;
@@ -1331,6 +1316,9 @@ svg.icon__arrow-up {
   }
   .header-section .brand-logo {
     width: 150px;
+  }
+  .sec-banner-wrap a {
+    font-size: 18px;
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
@@ -1351,7 +1339,6 @@ svg.icon__arrow-up {
   .banner-section .bg-mobile a {
     font-size: 12px;
     padding: 8px 8px;
-    bottom: 70px;
   }
   .subscribe-section {
     padding: 40px 0px;
