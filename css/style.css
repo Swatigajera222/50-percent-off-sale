@@ -261,7 +261,7 @@ ul {
   padding: 20px 45px;
   font-weight: bold;
   background-color: #fe048a;
-  border-radius: 30px;
+  border-radius: 8px;
 }
 .virtual-gym-section .virtual-inner .virtual-dec .join-btn a:hover {
   background-color: #14b327;
