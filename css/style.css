@@ -191,9 +191,10 @@ ul {
   text-align: center;
   font-weight: 400;
   line-height: 38px;
-  text-transform: capitalize;
 }
-.method-section .method-dec {
+.method-section .method-dec p span {
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 /* virtual-gym-section */
 .virtual-gym-section {
