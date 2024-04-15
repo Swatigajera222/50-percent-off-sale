@@ -1075,7 +1075,7 @@ svg.icon__arrow-up {
     font-size: 16px;
     padding: 10px 11px;
     line-height: 16px;
-    right: 40px;
+    right: 20px;
     bottom: 30px;
   }
   .testimonials-section .one-time .slick-list {
@@ -1155,7 +1155,7 @@ svg.icon__arrow-up {
     display: block;
   }
   .sec-banner-wrap a {
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 6px;
     right: 28%;
     bottom: 5%;
