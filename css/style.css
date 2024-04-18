@@ -203,7 +203,7 @@ ul {
   width: 100%;
 }
 .virtual-gym-section .virtual-inner {
-  height: 84vh;
+  padding: 40px 0px;
   display: flex;
   align-items: center;
   background-color: #fe048a;
@@ -686,7 +686,7 @@ ul {
 .subscribe-dec p span {
   color: #fe018a;
   margin-left: 0px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .subscribe-dec h2 span .off-text {
   font-size: 70px;
@@ -1080,6 +1080,12 @@ svg.icon__arrow-up {
     z-index: 999;
     right: 15px;
     bottom: 30px;
+  }
+  .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list {
+    gap: 30px;
+  }
+  .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list ul li {
+    font-size: 16px;
   }
   svg.icon__arrow-up {
     width: 26px;
