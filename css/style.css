@@ -280,7 +280,12 @@ ul {
 .virtual-gym-section .virtual-inner .virtual-img img {
   width: 100%;
 }
-
+.virtual-inner .virtual-img .virtual-slider-web {
+  display: block;
+}
+.virtual-inner .virtual-img .virtual-slider-mobile {
+  display: none;
+}
 .slick-dotted.slick-slider {
   margin: 0;
 }
@@ -934,6 +939,12 @@ svg.icon__arrow-up {
   .web-view {
     display: none;
   }
+  .virtual-inner .virtual-img .virtual-slider-web {
+    display: none;
+  }
+  .virtual-inner .virtual-img .virtual-slider-mobile {
+    display: block;
+  }
   .subscribe-dec h2 span {
     font-size: 70px;
   }
@@ -1192,7 +1203,8 @@ svg.icon__arrow-up {
     width: 90%;
   }
   .header-section .brand-logo {
-    width: 170px;
+    width: 140px;
+    margin-left: 20px;
   }
   .sortable-wrap .price-wrap .price-btn a {
     font-size: 35px;
