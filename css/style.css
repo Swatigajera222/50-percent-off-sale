@@ -973,7 +973,7 @@ svg.icon__arrow-up {
     padding: 10px 0px;
   }
   .header-section .wrap-btn a {
-    width: 130px;
+    width: 160px;
   }
   .header-section .sec-img {
     width: 100%;
@@ -1083,7 +1083,7 @@ svg.icon__arrow-up {
     font-size: 22px;
     padding: 10px 24px;
     left: 2%;
-    bottom: 15%;
+    bottom: 20%;
   }
   .testimonials-section .one-time .slick-list {
     height: 520px !important;
@@ -1169,8 +1169,9 @@ svg.icon__arrow-up {
     background: #2bc43d;
   }
   .sign-up {
-    font-size: 18px;
-    max-width: 145px;
+    font-size: 22px;
+    max-width: 160px;
+    width: 160px;
     padding: 7px 5px;
   }
   .sortable-wrap {
