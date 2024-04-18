@@ -1302,8 +1302,9 @@ svg.icon__arrow-up {
     margin-top: 10px;
   }
   .banner-section .bg-mobile a {
-    font-size: 16px;
+    font-size: 20px;
     padding: 7px 23px;
+    left: 1%;
   }
 }
 @media only screen and (max-width: 400px) {
