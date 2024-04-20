@@ -1087,6 +1087,7 @@ svg.icon__arrow-up {
   .virtual-gym-section .virtual-inner .virtual-dec .virtual-dec-list ul li {
     font-size: 14px;
     line-height: 30px;
+    text-align: center;
   }
   svg.icon__arrow-up {
     width: 26px;
