@@ -187,12 +187,12 @@ ul {
 }
 
 .method-section .method-dec p {
-  font-size: 26px;
+  font-size: 23px;
   color: #fe018a;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 35px;
 }
 .method-section .method-dec p span {
   text-decoration: underline;
@@ -336,7 +336,7 @@ ul {
   text-transform: uppercase;
   position: absolute;
   bottom: 9%;
-  right: 35%;
+  right: 25%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
@@ -956,7 +956,7 @@ svg.icon__arrow-up {
   .sec-banner-wrap a {
     font-size: 18px;
     padding: 10px 22px;
-    right: 38%;
+    right: 20%;
   }
   .banner-section .bg-web {
     display: none;
