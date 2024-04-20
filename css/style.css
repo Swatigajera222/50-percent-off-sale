@@ -263,7 +263,10 @@ ul {
   text-transform: uppercase;
   padding: 20px 45px;
   font-weight: bold;
-  background-color: #fe048a;
+  background-image: url(..//img/btn-bg.svg);
+  /* background-color: #ff1783; */
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 8px;
 }
 .virtual-gym-section .virtual-inner .virtual-dec .join-btn a:hover {
