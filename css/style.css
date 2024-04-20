@@ -332,14 +332,14 @@ ul {
 .sec-banner-wrap a {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: #fe048a;
+  background-color: #2bc43d;
   font-size: 44px;
   border-radius: 15px;
   padding: 20px 50px;
   text-transform: uppercase;
   position: absolute;
   bottom: 9%;
-  right: 25%;
+  right: 35%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
