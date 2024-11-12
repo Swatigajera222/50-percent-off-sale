@@ -143,10 +143,10 @@ ul {
   position: relative;
 }
 
-.banner-section .bg-web a {
+.banner-section .bg-web .web-banner-btn {
   position: absolute;
   font-family: "Inter-Bold";
-  right: 50px;
+  right: 20px;
   bottom: 30%;
   color: #ffffff;
   border: none;
@@ -161,7 +161,7 @@ ul {
   background-size: contain;
 }
 
-.banner-section .bg-web a:hover {
+.banner-section .bg-web .web-banner-btn:hover {
   color: #3d393b;
 }
 
@@ -170,7 +170,7 @@ ul {
   position: relative;
 }
 
-.banner-section .bg-mobile a {
+/* .banner-section .bg-mobile a {
   position: absolute;
   bottom: 6%;
   left: 6%;
@@ -184,7 +184,7 @@ ul {
   cursor: pointer;
   transition: transform 0.2s ease;
   text-transform: uppercase;
-}
+} */
 
 
 /* method-section */
@@ -893,14 +893,14 @@ svg.icon__arrow-up {
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
   .subscribe-dec h1 {
     font-size: 80px;
   }
 
-  .banner-section .bg-web a {
-    right: 30px;
-    bottom: 130px;
+  .banner-section .bg-web .web-banner-btn {
+    right: 20px;
+    bottom: 30%;
     font-size: 28px;
     padding: 16px 40px;
   }
@@ -1009,11 +1009,11 @@ svg.icon__arrow-up {
     font-size: 60px;
   }
 
-  .banner-section .bg-web a {
-    right: 10px;
-    bottom: 80px;
-    font-size: 24px;
-    padding: 12px 30px;
+  .banner-section .bg-web .web-banner-btn {
+    right: 2%;
+    bottom: 30%;
+    font-size: 18px;
+    padding: 10px 25px;
   }
 
   .sec-banner-wrap a {
